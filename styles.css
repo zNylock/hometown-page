@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0%;
+    background: linear-gradient(#AACEDB, #82A3CB);
+}
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.section-one{
+    background-image: url("Toronto.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#toronto{
+    background-color: #00A7E1;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px black;
+    padding: 0px 20px;
+}
+#six{
+    background-color: #007EA7;
+    color:#FFFFFF;
+    text-shadow: 2px 2px 2px black;
+    padding: 0px 20px;
+}
+#activities{
+    color:#FFFFFF;
+    text-shadow: 2px 2px 2px black;
+    text-align: center
+}
+#activities:hover{
+    color: #00A7E1;
+}
+#underline{
+    border-bottom: 2px solid #FFFFFF;
+}
+.section-two{
+    margin: 40px 20px 0 auto;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #264255;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-three{
+    margin-top: 50px;
+    width: auto;
+    height: 600px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#me{
+    width: 200px;
+    height: 350px;
+    box-shadow: 4px 4px 2px black;
+    border-radius: 20px;
+    margin: 10px 5px 10px 10px ;
+}
+.card{
+    width: 500px;
+    background-color: #003459;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px black;
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+}
+.card-text{
+    margin: 0 20px;
+    padding: 70px 0;
+}
+.card-text:hover{
+    color: #00A7E1;
+}
